@@ -1,0 +1,14 @@
+{
+    "name": "Story Refiner",
+    "agents": ["refiner"],
+    "tasks": [
+                {
+                    "name":"refine story",
+                    "description": "refine and enhance the given story {story}",
+                    "expected_output":"1500 words of story",
+                    "agent":"refiner"
+                }
+    ],
+    "process": "sequential",
+    "verbose": true
+}

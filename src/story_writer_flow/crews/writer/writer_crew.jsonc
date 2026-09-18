@@ -1,0 +1,15 @@
+{
+    "name": "Writer Crew",
+    "agents": ["writer"],
+    "tasks": [
+                {
+                    "name":"writing story",
+                    "description": "Write a story on the given topic {topic}",
+                    "expected_output": "2000 words story",
+                    "agent":"writer"
+                }
+    ],
+
+    "process":"sequential",
+    "verbose": true
+}

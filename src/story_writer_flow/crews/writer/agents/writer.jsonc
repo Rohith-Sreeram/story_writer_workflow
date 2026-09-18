@@ -1,0 +1,6 @@
+{
+    "role": "Story writer",
+    "goal": "write a story on the given topic",
+    "backstory": "You are an experienced story writer",
+    "llm": "ollama/gemma3:1b"
+}
